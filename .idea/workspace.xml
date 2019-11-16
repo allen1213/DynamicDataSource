@@ -7,16 +7,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95b56394-abab-4845-a2dc-d7d92e37e058" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resource/springmvc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/VideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/VideoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/service/IVideoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/service/IVideoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/service/impl/VideoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/service/impl/VideoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/service/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resource/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/controller/VideoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/controller/VideoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/service/IVideoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/service/IVideoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/service/impl/VideoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/service/impl/VideoServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/service/IUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/service/IUserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/demo/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/classes/com/example/controller/VideoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/demo/WEB-INF/classes/com/example/controller/VideoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/classes/com/example/service/IUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/demo/WEB-INF/classes/com/example/service/IUserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/classes/com/example/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/demo/WEB-INF/classes/com/example/service/impl/UserServiceImpl.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -310,7 +313,7 @@
       <workItem from="1573726020376" duration="1172000" />
       <workItem from="1573783368381" duration="6504000" />
       <workItem from="1573795083378" duration="10850000" />
-      <workItem from="1573872141428" duration="11317000" />
+      <workItem from="1573872141428" duration="13030000" />
     </task>
     <servers />
   </component>
@@ -327,5 +330,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/components/DataSourceAspect.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/components/DataSourceAspect.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
