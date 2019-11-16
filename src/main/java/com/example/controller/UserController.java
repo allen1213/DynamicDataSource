@@ -18,7 +18,7 @@ import java.util.List;
  * @author ${author}
  * @since 2019-08-30
  */
-//@RestController
+@RestController
 @RequestMapping("/user")
 public class UserController {
 

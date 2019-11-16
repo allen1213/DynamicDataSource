@@ -14,7 +14,7 @@ import org.springframework.stereotype.Service;
  * @author ${author}
  * @since 2019-08-30
  */
-//@Service
+@Service
 public class VideoServiceImpl extends ServiceImpl<VideoMapper, Video> implements IVideoService {
 	
 }
