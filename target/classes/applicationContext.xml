@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+     http://www.springframework.org/schema/beans/spring-beans.xsd
+     http://www.springframework.org/schema/context
+     http://www.springframework.org/schema/context/spring-context.xsd
+     http://www.springframework.org/schema/aop
+     http://www.springframework.org/schema/aop/spring-aop.xsd
+     http://www.springframework.org/schema/tx
+     http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+    <!--<context:component-scan base-package="com.example"/>-->
+
+    <!--<context:annotation-config />-->
+
+    <context:property-placeholder location="classpath*:db.properties"/>
+
+    <!--数据源1-->
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" destroy-method="close">
+
+        <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.user}"/>
+        <property name="password" value="${jdbc.password}"/>
+        <property name="driverClassName" value="${jdbc.driver}"/>
+
+        <!--最大并发连接数-->
+        <!--<property name="maxActive" value=""/>-->
+        <!--初始化连接数量-->
+        <!--<property name="initialSize" value=""/>-->
+        <!--配置获取连接等到超时时间-->
+        <!--<property name="maxWait" value=""/>-->
+        <!--最小空闲连接数-->
+        <!--<property name="minIdle" value=""/>-->
+
+    </bean>
+
+    <!--数据源2-->
+    <bean id="remoteDataSource" class="com.alibaba.druid.pool.DruidDataSource" destroy-method="close">
+
+        <property name="url" value="${remote.url}"/>
+        <property name="username" value="${remote.user}"/>
+        <property name="password" value="${remote.password}"/>
+        <property name="driverClassName" value="${remote.driver}"/>
+
+        <!--<property name="maxActive" value=""/>
+        <property name="initialSize" value=""/>
+        <property name="maxWait" value=""/>
+        <property name="minIdle" value=""/>-->
+
+    </bean>
+
+    <!--第一个sqlSessionFactory-->
+    <!--<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="configLocation" value="classpath:SqlMapConfig.xml"/>
+        <property name="mapperLocations" value="classpath*:mapper/*.xml"/>
+    </bean>-->
+
+    <!--<bean id="sqlSessionTemplate" class="org.mybatis.spring.SqlSessionTemplate">
+        <constructor-arg ref="sqlSessionFactory"/>
+    </bean>-->
+
+   <!-- <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+-->
+    <!--第二个sqlSessionFactory-->
+    <!--<bean id="remoteSqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="remoteDataSource"/>
+        <property name="configLocation" value="classpath:SqlMapConfig.xml"/>
+        <property name="mapperLocations" value="classpath*:remote/*.xml"/>
+    </bean>-->
+
+    <!--<bean id="remoteSqlSessionTemplate" class="org.mybatis.spring.SqlSessionTemplate">
+        <constructor-arg ref="remoteSqlSessionFactory"/>
+    </bean>-->
+
+    <!--<bean id="remoteTransactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="remoteDataSource"/>
+    </bean>-->
+
+    <!--动态数据源配置-->
+    <bean id="dynamicDataSource"
+          class="com.example.utils.DynamicDataSource"
+          primary="true">
+        <!--默认数据源-->
+        <property name="defaultTargetDataSource" ref="remoteDataSource"/>
+
+        <property name="targetDataSources">
+            <map>
+                <entry key="dataSource" value-ref="dataSource"/>
+                <entry key="remoteDataSource" value-ref="remoteDataSource"/>
+            </map>
+        </property>
+    </bean>
+
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dynamicDataSource"/>
+    </bean>
+
+    <tx:annotation-driven transaction-manager="transactionManager"/>
+
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dynamicDataSource"/>
+        <property name="configLocation" value="classpath:SqlMapConfig.xml"/>
+        <property name="mapperLocations" value="classpath*:/**/*Mapper.xml"/>
+    </bean>
+
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.example.mapper"/>
+        <property name="processPropertyPlaceHolders" value="true"/>
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+    </bean>
+
+    <context:component-scan base-package="com.example.service"/>
+    <context:component-scan base-package="com.example.components"/>
+
+    <!--<tx:advice id="txAdvice" transaction-manager="transactionManager"/>
+
+    <aop:config>
+        <aop:pointcut id="txPoint" expression="execution(* com.example.service.*.*(..))"/>
+        <aop:advisor advice-ref="txAdvice" pointcut-ref="txPoint"/>
+    </aop:config>-->
+
+    <aop:aspectj-autoproxy/>
+
+
+    <!--线程池-->
+    <bean id="taskExecutor" class="org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor">
+        <!--核心线程数-->
+        <property name="corePoolSize" value="5"/>
+        <!--最大线程数-->
+        <property name="maxPoolSize" value="250"/>
+        <!--队列最大长度-->
+        <property name="queueCapacity" value="1000"/>
+        <!--线程池维护线程所允许的空闲时间，默认为60s-->
+        <property name="keepAliveSeconds" value="120"/>
+    </bean>
+
+
+</beans>

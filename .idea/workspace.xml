@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="95b56394-abab-4845-a2dc-d7d92e37e058" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Program Files/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\Program Files\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1TVz1B2lTz5l5sNufzSpd8qpGgI" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resource/remote" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.40378863" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.service.impl" />
+      <recent name="com.example.service" />
+      <recent name="com.example.mapper" />
+      <recent name="com.example.controller" />
+      <recent name="com.example.entity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\AppDemo\DynamicDataSource\src\main\resource\remote" />
+      <recent name="D:\Code\AppDemo\DynamicDataSource\src\main\resource\mapper" />
+      <recent name="D:\Code\AppDemo\DynamicDataSource\src\main\java\com\example" />
+      <recent name="D:\Code\AppDemo\DynamicDataSource\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.AnnotationTest.testAnnotation">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.test.Test" />
+      <module name="DynamicDataSource" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnnotationTest.testAnnotation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DynamicDataSource" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.test" />
+      <option name="MAIN_CLASS_NAME" value="com.example.test.AnnotationTest" />
+      <option name="METHOD_NAME" value="testAnnotation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnnotationTest.testDBKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DynamicDataSource" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.test" />
+      <option name="MAIN_CLASS_NAME" value="com.example.test.AnnotationTest" />
+      <option name="METHOD_NAME" value="testDBKey" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VideoTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DynamicDataSource" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.test" />
+      <option name="MAIN_CLASS_NAME" value="com.example.test.VideoTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AnnotationTest.testAnnotation" />
+        <item itemvalue="JUnit.VideoTest.test01" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="JUnit.AnnotationTest.testDBKey" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="95b56394-abab-4845-a2dc-d7d92e37e058" name="Default Changelist" comment="" />
+      <created>1573559832086</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573559832086</updated>
+      <workItem from="1573559833606" duration="1226000" />
+      <workItem from="1573609023841" duration="6595000" />
+      <workItem from="1573615637215" duration="1177000" />
+      <workItem from="1573622589448" duration="12426000" />
+      <workItem from="1573726020376" duration="1172000" />
+      <workItem from="1573783368381" duration="6504000" />
+      <workItem from="1573795083378" duration="10850000" />
+      <workItem from="1573872141428" duration="6075000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
