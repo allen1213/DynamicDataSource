@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95b56394-abab-4845-a2dc-d7d92e37e058" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/annotation/DbSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/components/DataSourceAspect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/VideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/VideoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/service/impl/VideoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/service/impl/VideoServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resource/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/applicationContext.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -88,7 +81,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AnnotationTest.testAnnotation">
+  <component name="RunManager" selected="JUnit.VideoTest.test01">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.test.Test" />
       <module name="DynamicDataSource" />
@@ -152,8 +145,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AnnotationTest.testAnnotation" />
         <item itemvalue="JUnit.VideoTest.test01" />
+        <item itemvalue="JUnit.AnnotationTest.testAnnotation" />
         <item itemvalue="Application.Test" />
         <item itemvalue="JUnit.AnnotationTest.testDBKey" />
       </list>
@@ -176,7 +169,7 @@
       <workItem from="1573726020376" duration="1172000" />
       <workItem from="1573783368381" duration="6504000" />
       <workItem from="1573795083378" duration="10850000" />
-      <workItem from="1573872141428" duration="9467000" />
+      <workItem from="1573872141428" duration="9679000" />
     </task>
     <servers />
   </component>
