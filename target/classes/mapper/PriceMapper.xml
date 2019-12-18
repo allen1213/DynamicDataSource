@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.mapper.PriceMapper">
+
+    <insert id="batchInsert"
+            keyProperty="id"
+            useGeneratedKeys="true"
+            parameterType="java.util.List">
+
+    INSERT INTO price08(
+        video_id,item_price,sell_amount
+    )
+    VALUES
+        <foreach collection="list" item="item" separator=",">
+            <trim prefix="(" suffix=")" suffixOverrides=",">
+                #{item.videoId},
+                #{item.itemPrice},
+                #{item.sellAmount}
+            </trim>
+
+        </foreach>
+
+    </insert>
+
+    <select id="getAmount" resultType="java.math.BigDecimal">
+
+        SELECT SUM(item_price * sell_amount)
+        FROM ${tabName}
+        <where>
+            <if test="videoId != null">
+                video_id = #{videoId}
+            </if>
+            <if test="userId != null">
+                user_id = #{userId}
+            </if>
+        </where>
+
+    </select>
+
+
+</mapper>

@@ -1,7 +1,6 @@
 package com.example.components;
 
 import com.example.annotation.DbSource;
-import com.example.utils.DynamicDataSource;
 import com.example.utils.DynamicDataSourceHolder;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.After;
