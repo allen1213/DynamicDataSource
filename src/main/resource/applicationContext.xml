@@ -88,7 +88,7 @@
     <!--<tx:advice id="txAdvice" transaction-manager="transactionManager"/>
 
     <aop:config>
-        <aop:pointcut id="txPoint" expression="execution(* com.example.service.*.*(..))"/>
+        <aop:pointcut id="txPoint" expression="execution(* *..*ServiceImpl.*(..))"/>
         <aop:advisor advice-ref="txAdvice" pointcut-ref="txPoint"/>
     </aop:config>-->
 

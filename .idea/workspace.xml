@@ -7,70 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95b56394-abab-4845-a2dc-d7d92e37e058" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/entity/Price.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/entity/Summery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mapper/PriceMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/test/PriceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/test/SummeryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resource/mapper/PriceMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/components/DataSourceAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/components/DataSourceAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/DynamicDataSource.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/components/DataSourceAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/components/DataSourceAspect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/classes/META-INF/DynamicDataSource.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/classes/SqlMapConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/classes/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/classes/com/example/annotation/DbSource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/classes/com/example/annotation/SwitchTo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/classes/com/example/components/DataSourceAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/classes/com/example/components/DynamicDataSourceAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/classes/com/example/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/classes/com/example/controller/VideoController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/classes/com/example/entity/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/classes/com/example/entity/Video.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/classes/com/example/mapper/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/classes/com/example/mapper/VideoMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/classes/com/example/service/IUserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/classes/com/example/service/IVideoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/classes/com/example/service/impl/SwitchToTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/classes/com/example/service/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/classes/com/example/service/impl/VideoServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/classes/com/example/test/AnnotationTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/classes/com/example/test/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/classes/com/example/test/VideoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/classes/com/example/utils/DynamicDataSource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/classes/com/example/utils/DynamicDataSourceHolder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/classes/db.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/classes/mapper/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/classes/remote/VideoMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/classes/springmvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/lib/aspectjweaver-1.8.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/lib/druid-1.1.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/lib/hamcrest-core-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/lib/jackson-annotations-2.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/lib/jackson-core-2.9.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/lib/jackson-databind-2.9.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/lib/junit-4.13-rc-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/lib/mybatis-3.4.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/lib/mybatis-plus-2.0.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/lib/mybatis-spring-1.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/lib/mysql-connector-java-5.1.38.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/lib/spring-aop-4.3.12.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/lib/spring-aspects-4.3.12.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/lib/spring-beans-4.3.12.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/lib/spring-context-4.3.12.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/lib/spring-core-4.3.12.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/lib/spring-expression-4.3.12.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/lib/spring-jdbc-4.3.12.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/lib/spring-tx-4.3.12.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/lib/spring-web-4.3.12.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/lib/spring-webmvc-4.3.12.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resource/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -130,7 +69,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resource" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.40378863" />
@@ -395,6 +334,10 @@
       <workItem from="1574826180147" duration="5000" />
       <workItem from="1575445752284" duration="1920000" />
       <workItem from="1575858747566" duration="3352000" />
+      <workItem from="1576636660125" duration="5783000" />
+      <workItem from="1576916336143" duration="668000" />
+      <workItem from="1577243294035" duration="1356000" />
+      <workItem from="1618636830691" duration="17000" />
     </task>
     <servers />
   </component>
